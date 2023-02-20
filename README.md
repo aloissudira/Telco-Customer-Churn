@@ -68,7 +68,7 @@ berdasarkan tabel diatas, encoding dilakukan menurut keterangan berikut :
 1. Contract dengan ordinal encoding karena nilainya bertingkat mulai dari month-to month, One Year dan Two Year
 1. OnlineBackup dengan menggunakan One Hot Encoder karena fitur ini tidak memiliki urutan ordinal dan jumlah uniqe data yang hanya sedikit
 
-#### ENCODING
+#### IMBALANCE DATA
 
 data yang kita miliki memiliki imbalance data dan termasuk pada [mild imbalance](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data) dengan proporsi kelas minoritas sebesar 26.6%. agar distribusi kelas seimbang, kita akan menerapkan metode resampling yaitu Synthetic Minority Over-sampling Technique for Nominal and Continuous (SMOTENC), Hal ini dikarenakan :
 
